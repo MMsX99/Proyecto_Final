@@ -40,12 +40,7 @@ with mp_hands.Hands(
                 mp_drawing.DrawingSpec(color=(255,0,255), thickness=4)
             )
 
-            #acceder a los puntos
-            #x4=(hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP].x )
-            #y4=(hand_landmarks.landmark[mp_hands.HandLandmark.THUMB_TIP].y)
-            #print(x4)
-            #print(y4)
-
+            
             puntos=np.array([[punto.x, punto.y, punto.z] for punto in hand_landmarks.landmark ]).T
             #print(puntos)
 
@@ -54,12 +49,6 @@ with mp_hands.Hands(
             #print(vMCP_0)
 
             
-            #x1PIP_MCP=np.array([puntos[0,x] for x in  (6,10,14,18) ])
-            #x0PIP_MCP=np.array([puntos[0,x] for x in (5,9,13,17) ])
-            #y1PIP_MCP=np.array([puntos[1,y] for y in  (6,10,14,18) ])
-            #y0PIP_MCP=np.array([puntos[1,y] for y in (5,9,13,17) ])
-            #xPIP_MCP=x1PIP_MCP-x0PIP_MCP
-            #yPIP_MCP=y1PIP_MCP-y0PIP_MCP
             
             #vPIP_MCP=np.array([xPIP_MCP,yPIP_MCP])
             #print(vPIP_MCP)
