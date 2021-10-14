@@ -1,2 +1,4 @@
 # Proyecto_Final
-Proyecto Gestos arrojar o dejar caer basura.
+PROYECTO GESTOS ARROJAR O DEJAR CAER BASURA.
+
+
