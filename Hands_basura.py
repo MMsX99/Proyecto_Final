@@ -15,7 +15,7 @@ with mp_hands.Hands(
     max_num_hands=1,
     min_detection_confidence=0.5) as hands:
 
-    imagen1 = cv2.imread("C:/Users/ASUS/Documents/universidad distrital/Proyectos_aplicada/Proyecto_Hands_basura/imagenes/gesto_sostener3.png")
+    imagen1 = cv2.imread("imagenes/gesto_sostener1.png")
     assert not isinstance(imagen1,type(None)), 'image not found'
     #print(imagen1)
     height, width, _ = imagen1.shape
