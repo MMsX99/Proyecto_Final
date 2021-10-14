@@ -320,8 +320,6 @@ with mp_hands.Hands(
 
 
             ##########################
-
-
     #----------------
     imagen1= cv2.flip(imagen1, 1)
 resized =   cv2.resize(imagen1, (1080,720), interpolation = cv2.INTER_AREA) 
